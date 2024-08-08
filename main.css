@@ -46,12 +46,11 @@ body{
     outline: none;  
 }
 .content .noti{
-    
     font-size: 13px;
     font-weight: 400; 
     color: red;
     text-align: center;
-    
+    display: none;
 }
 .content button{
     width: 80%;

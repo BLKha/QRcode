@@ -16,8 +16,6 @@ function generateQR(){
         },1000)
         noti.style.display= 'block';
     }
-
-    
 }
 function clickBtn(){
     createQR.addEventListener('click',generateQR)
@@ -30,7 +28,6 @@ function clickBtn(){
             noti.style.display='none'
         }
     })
-
     qrText.addEventListener('keydown',(event)=>{
         if(event.key ==='Enter'){
         generateQR();
